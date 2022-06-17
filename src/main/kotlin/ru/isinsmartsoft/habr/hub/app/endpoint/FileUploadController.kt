@@ -1,4 +1,4 @@
-package ru.isinsmartsoft.habr.hub.endpoint
+package ru.isinsmartsoft.habr.hub.app.endpoint
 
 import org.springframework.core.io.Resource
 import org.springframework.http.HttpHeaders
@@ -14,13 +14,15 @@ import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.multipart.MultipartFile
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder
 import org.springframework.web.servlet.mvc.support.RedirectAttributes
-import ru.isinsmartsoft.habr.hub.exception.StorageFileNotFoundException
-import ru.isinsmartsoft.habr.hub.service.StorageService
+import ru.isinsmartsoft.habr.hub.app.exception.StorageFileNotFoundException
+import ru.isinsmartsoft.habr.hub.app.service.StorageService
 import java.io.IOException
 import java.util.stream.Collectors
 
 @Controller
-class FileUploadController(private val storageService: StorageService) {
+class FileUploadController(
+    private val storageService: StorageService
+) {
 
     @GetMapping("/")
     @Throws(IOException::class)

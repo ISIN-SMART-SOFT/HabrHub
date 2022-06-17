@@ -1,4 +1,4 @@
-package ru.isinsmartsoft.habr.hub.service
+package ru.isinsmartsoft.habr.hub.app.service
 
 import org.springframework.core.io.Resource
 import org.springframework.web.multipart.MultipartFile

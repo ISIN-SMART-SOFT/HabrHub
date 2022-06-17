@@ -1,4 +1,4 @@
-package ru.isinsmartsoft.habr.hub.exception
+package ru.isinsmartsoft.habr.hub.app.exception
 
 class StorageFileNotFoundException : StorageException {
 

@@ -1,4 +1,4 @@
-package ru.isinsmartsoft.habr.hub.service
+package ru.isinsmartsoft.habr.hub.app.service
 
 import org.springframework.core.io.Resource
 import org.springframework.core.io.UrlResource
@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service
 import org.springframework.util.FileSystemUtils
 import org.springframework.util.StringUtils
 import org.springframework.web.multipart.MultipartFile
-import ru.isinsmartsoft.habr.hub.exception.StorageException
-import ru.isinsmartsoft.habr.hub.exception.StorageFileNotFoundException
-import ru.isinsmartsoft.habr.hub.props.StorageProperties
+import ru.isinsmartsoft.habr.hub.app.exception.StorageException
+import ru.isinsmartsoft.habr.hub.app.exception.StorageFileNotFoundException
+import ru.isinsmartsoft.habr.hub.app.props.StorageProperties
 import java.io.IOException
 import java.net.MalformedURLException
 import java.nio.file.Files

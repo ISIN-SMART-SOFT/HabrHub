@@ -3,3 +3,11 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
+
+
+telegram:
+  bots:
+    - name: "JavaMentorDevBot"
+      token: "1960789997:AAH2iwBkeYg6pso7SF3gtaFTfrr1lyMsPSE"
+    - name: "MoodDevBot"
+      token: "5364563652:AAHzldeuA4Z78Nt4fko5pz40t7WNzlZQo4M"

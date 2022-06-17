@@ -1,4 +1,4 @@
-package ru.isinsmartsoft.habr.hub.props
+package ru.isinsmartsoft.habr.hub.app.props
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.ConstructorBinding
